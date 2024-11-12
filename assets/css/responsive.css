@@ -1,0 +1,276 @@
+@media (max-width: 1030px) {
+
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2  {
+        min-height: 550px;
+        background-position: 65% center;
+
+    }
+
+    .home-banner .home-banner-text {
+        transform: translate(-80%, -50%);
+        -webkit-transform: translate(-80%, -50%);
+        -moz-transform: translate(-80%, -50%);
+        -ms-transform: translate(-80%, -50%);
+        -o-transform: translate(-80%, -50%);
+    }
+
+    .offer-box .offer-info .heading-bigger {
+        line-height: 1;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0;
+        color: var(--text-white);
+    }
+
+
+}
+
+
+@media (max-width: 991px) {
+
+    header .navbar-toggler{
+
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    header .navbar-toggler-icon {
+        width: unset;
+        height: unset;
+        background: transparent;
+
+    }
+
+
+    .home-banner .home-banner-text {
+        transform: translate(-66%, -50%);
+        -webkit-transform: translate(-66%, -50%);
+        -moz-transform: translate(-66%, -50%);
+        -ms-transform: translate(-66%, -50%);
+        -o-transform: translate(-66%, -50%);
+    }
+
+    #special .countdown-container .countdown-counter li {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+        background: var(--bg-white);
+        display: inline-block;
+        padding: 1.5rem 1.3rem;
+        border-radius: 0.313rem;
+        -webkit-border-radius: 0.313rem;
+        -moz-border-radius: 0.313rem;
+        -ms-border-radius: 0.313rem;
+        -o-border-radius: 0.313rem;
+    }
+
+    #special .countdown-container .countdown-counter li span {
+        font-size: 2rem !important;
+    }
+
+
+
+    #testimonial #carouselExampleIndicators2 .slider-icon {
+        font-size: 2.5rem;
+        color: var(--bg-danger);
+        font-weight: 600;
+
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-next {
+        right: -4rem;
+
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-prev {
+        left: -4.7rem;
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 650px;
+        background-position: 50% center;
+        position: relative;
+
+    }
+
+
+    .home-banner .home-banner-text {
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .home-banner .home-banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .home-banner .home-banner-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .home-banner .home-banner-text .btn-danger {
+        padding: 0.5rem 1.5rem;
+
+    }
+
+    .hero-section .slider-icon {
+        font-size: 2rem;
+        color: var(--bg-danger);
+        font-weight: 600;
+    }
+
+    #special .countdown-container .countdown-counter li {
+        flex: 1;
+    }
+
+
+    #testimonial #carouselExampleIndicators2 .slider-icon {
+        font-size: 1.8rem;
+        color: var(--bg-danger);
+        font-weight: 600;
+
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-next {
+        right: -3rem;
+
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-prev {
+        left: -3rem;
+
+    }
+
+    #contact .form-control {
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+
+
+    .hero-section #carouselExampleIndicators .home-banner-1,
+    .hero-section #carouselExampleIndicators .home-banner-2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 650px;
+        background-position: 55% center;
+        position: relative;
+
+    }
+
+
+
+    .home-banner .home-banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .home-banner .home-banner-text h2 {
+        font-size: 1rem;
+    }
+
+    #products .up-to-off .up-to-content h2 {
+        font-size: 1.1rem;
+        max-width: 80%;
+        text-align: center;
+    }
+
+
+    #special .countdown-container .countdown-counter {
+        margin-inline: auto;
+        max-width: 400px;
+
+    }
+
+    #special .countdown-container .countdown-counter li {
+        font-weight: bold;
+        text-align: center;
+        flex: 1;
+        font-size: 1rem;
+        background: var(--bg-white);
+        display: inline-block;
+        padding: 1.5rem .5rem;
+        border-radius: 0.313rem;
+        -webkit-border-radius: 0.313rem;
+        -moz-border-radius: 0.313rem;
+        -ms-border-radius: 0.313rem;
+        -o-border-radius: 0.313rem;
+    }
+
+    #special .countdown-container .countdown-counter li span {
+        font-size: 1.5rem !important;
+    }
+
+
+    #testimonial .testimonial-wrapper {
+        box-shadow: 0 0 0.563rem 0 rgb(0 0 0 / 5%);
+        background: var(--text-white);
+        margin: 10px 0px;
+        padding: 2rem 1rem;
+        border: 0.063rem solid var(--bg-light-white);
+        border-radius: 0.63rem;
+        -webkit-border-radius: 0.63rem;
+        -moz-border-radius: 0.63rem;
+        -ms-border-radius: 0.63rem;
+        -o-border-radius: 0.63rem;
+    }
+
+
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-next-icon,
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-prev-icon {
+        background: transparent;
+        color: transparent;
+        display: none;
+
+
+    }
+
+
+
+
+    #testimonial #carouselExampleIndicators2 .slider-icon {
+        font-size: 3rem;
+        color: var(--bg-danger);
+        font-weight: 600;
+        display: none;
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-next {
+        right: -5rem;
+        display: none;
+    }
+
+    #testimonial #carouselExampleIndicators2 .carousel-control-prev {
+        left: -5.8rem;
+        display: none;
+    }
+
+
+
+}
