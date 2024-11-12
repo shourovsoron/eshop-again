@@ -125,21 +125,22 @@ img {
 }
 
 .btn-danger{
-    background: var(--bg-danger);
-    border-color: var(--bg-danger);
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     font-weight: 500;
+    background: var(--bg-danger);
+    border-color: var(--bg-danger);
+
 }
 
 
 .btn-danger-outline{
-    background: transparent;
-    border-color: var(--bg-danger);
-    padding: 0.8rem 1.5rem;
     font-size: 1rem;
     font-weight: 500;
     color: var(--bg-danger);
+    background: transparent;
+    border-color: var(--bg-danger);
+    padding: 0.8rem 1.5rem;
 }
 
 .btn-danger-outline:hover{
@@ -153,41 +154,7 @@ img {
     background: transparent;
 
 }
-/* 
-.btn {
-    font-size: 0.938rem;
-    font-weight: 500;
-    color: var(--text-white);
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
-    line-height: 1rem;
-    text-align: center;
-    padding: 1.125rem 1.875rem;
-    border: 0 none;
-    position: relative;
-    outline: none;
-    z-index: 1;
-    border-radius: 0.375rem;
-    -webkit-border-radius: 0.375rem;
-    -moz-border-radius: 0.375rem;
-    -ms-border-radius: 0.375rem;
-    -o-border-radius: 0.375rem;
-}
 
-.btn,
-.btn:active,
-.btn.sApp-btn::before,
-.bg-overlay::after {
-    background: var(--bg-gradient);
-}
-
-.btn:hover {
-    color: var(--text-white);
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
-
-} */
 
 .container {
     width: 100%;
@@ -198,35 +165,6 @@ img {
     padding: 100px 0;
 }
 
-/* Typhography */
-h1 {
-
-    /* font-size: 3.563rem;
-    line-height: 4.563rem;
-    letter-spacing: 0.123rem;
-    font-weight: 400; */
-}
-
-h2 {
-/* 
-    font-size: 2.875rem;
-    line-height: 3.5rem;
-    font-weight: 400; */
-}
-
-h3 {
-    /* font-size: 1.563rem;
-    line-height: 2.375rem;
-    font-weight: 400; */
-}
-
-h5 {
-    /* font-size: 1.125rem;
-    font-weight: 700;
-    letter-spacing: 0.063rem;
-    line-height: 1.688rem;
-    margin-bottom: 0px; */
-}
 
 
 
@@ -309,7 +247,6 @@ header .navbar-toggler:focus{
     background-color: var(--bg-danger);
     width: 3.5rem;
     height: 0.31rem;
-
 }
 
 .hero-section #carouselExampleIndicators .carousel-control-next-icon,
@@ -320,20 +257,20 @@ header .navbar-toggler:focus{
 }
 
 .hero-section #carouselExampleIndicators .slider-icon{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--bg-danger);
     font-weight: 600;
 }
 
 .offers .offer-box .offer-image::before{
     position: absolute;
+    height: 100%;
+    width: 50%;
     top: 0;
     content: '';
     left: -100%;
     z-index: 2;
     display: block;
-    width: 50%;
-    height: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
     transform: skewX(-25deg);
     -webkit-transform: skewX(-25deg);
@@ -368,12 +305,12 @@ header .navbar-toggler:focus{
 }
 
 .offers .offer-box .offer-image .offer-overlay::before{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     position: absolute;
     content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     background: #1212124e;
     z-index: 1;
 
@@ -381,10 +318,10 @@ header .navbar-toggler:focus{
 
 .offer-box .offer-info{
     position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
     display: flex;
     flex-direction: column;
     z-index: 3;
@@ -440,9 +377,9 @@ header .navbar-toggler:focus{
     position: absolute;
     width: 30% ;
     height: 0.125rem;
-    background: var(--bg-danger);
     bottom: 0;
     left: 50%;
+    background: var(--bg-danger);
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -565,16 +502,18 @@ header .navbar-toggler:focus{
 }
 
 #products .up-to-off::before{
-    background: #00000038;
+    position: absolute;
+    left: 0;
+    content: "";
     width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
     right: 0;
     z-index: 5;
-    left: 0;
-    content: "";
-    position: absolute;
+    background: #00000038;
+
+
 
 }
 
@@ -623,17 +562,17 @@ header .navbar-toggler:focus{
     background: var(--bg-light-white);
 }
 #special .sale{
-    background: var(--bg-danger);
     position: absolute;
+    padding: 0.1rem 0.25rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
+    font-size: 0.813rem;
     z-index: 99;
     text-transform: uppercase;
     left: 1rem;
     top: 1.88rem;
     color: var(--text-white);
-    padding: 0.1rem 0.25rem;
-    letter-spacing: 0.125rem;
-    line-height: 1.563rem;
-    font-size: 0.813rem;
+    background: var(--bg-danger);
     border-radius: 0.313rem;
     -webkit-border-radius: 0.313rem;
     -moz-border-radius: 0.313rem;
@@ -676,11 +615,11 @@ header .navbar-toggler:focus{
 }
 
 #testimonial .testimonial-wrapper{
-    box-shadow: 0 0 0.563rem 0 rgb(0 0 0 / 5%);
     background: var(--text-white);
     margin: 10px 20px;
     padding: 2rem 5rem;
     border: 0.063rem solid var(--bg-light-white);
+    box-shadow: 0 0 0.563rem 0 rgb(0 0 0 / 5%);
     border-radius: 0.63rem;
     -webkit-border-radius: 0.63rem;
     -moz-border-radius: 0.63rem;
@@ -731,7 +670,6 @@ header .navbar-toggler:focus{
 
 
 #testimonial #carouselExampleIndicators2 .carousel-control-next-icon,
-
 #testimonial #carouselExampleIndicators2 .carousel-control-prev-icon{
     background: transparent;
     color: transparent;
@@ -742,8 +680,8 @@ header .navbar-toggler:focus{
 
 #testimonial #carouselExampleIndicators2 .slider-icon{
     font-size: 3rem;
-    color: var(--bg-danger);
     font-weight: 600;
+    color: var(--bg-danger);
 }
 
 #testimonial #carouselExampleIndicators2 .carousel-control-next{
@@ -790,10 +728,10 @@ header .navbar-toggler:focus{
 
 #contact .textarea {
     width: 100%;
+    font-size: 1rem;
     padding: 0.375rem 1.1875rem;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
     box-shadow: 0 0.1875rem 1.25rem 0 rgb(0 0 0/ 12%);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
